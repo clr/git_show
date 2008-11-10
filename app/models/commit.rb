@@ -1,2 +1,2 @@
-class Commit < ActiveRecord::Base
+class Commit
 end

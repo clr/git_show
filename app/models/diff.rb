@@ -1,2 +1,2 @@
-class Diff < ActiveRecord::Base
+class Diff
 end
