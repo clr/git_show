@@ -15,7 +15,7 @@ class Commit
   def make_preview
     next_preview = ( GitRepo.previews.last || -1 ) + 1
     port = 4000 + next_preview
-    `#{ GIT_COMMAND } checkout #{ @id }; #{ GIT_COMMAND } clone -l -s #{ File.expand_path( File.join( RAILS_ROOT, 'preview', next_preview.to_s ) ) }; #{ GIT_COMMAND } checkout master`
+    `#{ GIT_COMMAND } checkout #{ @id }; #{ GIT_COMMAND } clone -l -s ./ #{ File.expand_path( File.join( RAILS_ROOT, 'preview', next_preview.to_s ) ) }; #{ GIT_COMMAND } checkout master`
     `#{ File.expand_path( File.join( RAILS_ROOT, 'preview', 'script', 'server' ) ) } -p #{ port }`
     return port
   end
