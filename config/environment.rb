@@ -65,3 +65,7 @@ Rails::Initializer.run do |config|
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector
 end
+
+GIT_DIR = File.expand_path( File.join( RAILS_ROOT, '.git' ) )
+GIT_COMMAND = "git --git-dir=#{ GIT_DIR }"
+

@@ -6,6 +6,6 @@ describe Diff do
   end
 
   it "should be returned from a Commit" do
-    Commit.new( @valid_commit_id ).diffs.first.should be_a?( Diff )
+    Commit.new( @valid_commit_id ).diffs.first.should be_an_instance_of( Diff )
   end
 end

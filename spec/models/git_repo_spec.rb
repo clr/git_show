@@ -22,4 +22,5 @@ describe GitRepo do
       commit.has_key?( :message ).should be_true
     end
   end
+
 end

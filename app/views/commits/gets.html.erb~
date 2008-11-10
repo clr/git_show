@@ -1,8 +1,10 @@
-<h1>Commits#gets</h1>
+<h1>List of Commits</h1>
 <ol>
   <% GitRepo.commits.reverse.each do |commit| -%>
   <li>
-    <a href="/commit/<%= commit[:id] %>"><%= commit[:id] %></a> <%= commit[:when] %>, by <%= commit[:author] %>
+    <a href="/commit/<%= commit[:id] %>"><%= commit[:id] %></a>
+    <br />
+    <em><%= commit[:when] %>, by <%= commit[:author] %></em>
     <br />
     <p><%= commit[:message] %></p>
   </li>
