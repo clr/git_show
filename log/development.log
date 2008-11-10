@@ -275,3 +275,35 @@ Completed in 0.00847 (118 reqs/sec) | Rendering: 0.00316 (37%) | DB: 0.00000 (0%
 [0m
   [4;36;1mSQL (0.000219)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
   [4;35;1mSQL (0.003384)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Processing CommitsController#gets (for 127.0.0.1 at 2008-11-10 15:23:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--abd5f8c4a18a0925a9a676ddded7ea7a1714d398
+  Parameters: {"action"=>"gets", "method"=>"get", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.03116 (32 reqs/sec) | Rendering: 0.02798 (89%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing CommitsController#gets (for 127.0.0.1 at 2008-11-10 15:23:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--abd5f8c4a18a0925a9a676ddded7ea7a1714d398
+  Parameters: {"action"=>"gets", "method"=>"get", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.04639 (21 reqs/sec) | Rendering: 0.04312 (92%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing CommitsController#gets (for 127.0.0.1 at 2008-11-10 15:23:45) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--abd5f8c4a18a0925a9a676ddded7ea7a1714d398
+  Parameters: {"action"=>"gets", "method"=>"get", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.03232 (30 reqs/sec) | Rendering: 0.02321 (71%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing CommitsController#gets (for 127.0.0.1 at 2008-11-10 15:25:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--abd5f8c4a18a0925a9a676ddded7ea7a1714d398
+  Parameters: {"action"=>"gets", "method"=>"get", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.03038 (32 reqs/sec) | Rendering: 0.02608 (85%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
