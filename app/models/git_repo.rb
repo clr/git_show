@@ -10,4 +10,13 @@ class GitRepo
     end
   end
 
+  def self.previews
+    @previews = []
+    Dir.foreach( File.expand_path( File.join( RAILS_ROOT, 'preview' ) ) ) do |entry|
+      location = File.expand_path( File.join( RAILS_ROOT, 'preview', entry ) )
+      @previews << entry.to_i if File.directory?( location ) && ( entry[0] != "." )
+    end
+    @previews.sort
+  end
+  
 end
