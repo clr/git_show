@@ -8,6 +8,8 @@
     <br />
     <p><%= commit[:message] %></p>
     <br />
+    <form action="/preview/<%= commit[:id] %>" method="post" target="_blank"><input type="submit" value="run" /></form>
+    <br />
   </li>
   <% end -%>
 </ol>
