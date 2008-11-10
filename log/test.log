@@ -1,0 +1,48 @@
+
+
+Processing CommitsController#get (for 0.0.0.0 at 2008-11-10 14:17:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"get", "controller"=>"commits"}
+Rendering commits/get
+Completed in 0.00379 (263 reqs/sec) | Rendering: 0.00037 (9%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/get]
+
+
+Processing CommitsController#gets (for 0.0.0.0 at 2008-11-10 14:17:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"gets", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.00076 (1312 reqs/sec) | Rendering: 0.00034 (44%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/gets]
+Rendering commits/get
+Rendering commits/gets
+Rendering commits/get
+
+
+Processing CommitsController#get (for 0.0.0.0 at 2008-11-10 14:25:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"get", "controller"=>"commits"}
+Rendering commits/get
+Completed in 0.00318 (314 reqs/sec) | Rendering: 0.00036 (11%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/get]
+
+
+Processing CommitsController#gets (for 0.0.0.0 at 2008-11-10 14:25:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"gets", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.00074 (1343 reqs/sec) | Rendering: 0.00034 (45%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/gets]
+Rendering commits/gets
+Rendering commits/get
+
+
+Processing CommitsController#get (for 0.0.0.0 at 2008-11-10 14:29:12) [GET]
+  Session ID: 
+  Parameters: {"action"=>"get", "controller"=>"commits"}
+Rendering commits/get
+Completed in 0.00355 (281 reqs/sec) | Rendering: 0.00037 (10%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/get]
+
+
+Processing CommitsController#gets (for 0.0.0.0 at 2008-11-10 14:29:12) [GET]
+  Session ID: 
+  Parameters: {"action"=>"gets", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.00076 (1310 reqs/sec) | Rendering: 0.00036 (47%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/gets]
+Rendering commits/gets
