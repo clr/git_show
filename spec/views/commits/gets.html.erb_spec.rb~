@@ -6,9 +6,11 @@ describe "/commits/gets" do
   end
   
   it "should have a list of links to the individual commits" do
-    response.should have_tag( 'li' ) do
-      with_tag( 'ul' ) do
+    response.should have_tag( 'ol' ) do
+      with_tag( 'li' ) do
         with_tag( 'a' )
+        with_tag( 'br' )
+        with_tag( 'p' )
       end
     end
   end

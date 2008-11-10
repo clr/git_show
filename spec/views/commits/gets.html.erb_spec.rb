@@ -8,7 +8,9 @@ describe "/commits/gets" do
   it "should have a list of links to the individual commits" do
     response.should have_tag( 'ol' ) do
       with_tag( 'li' ) do
-        with_tag( 'a' )
+        with_tag( 'a' ) # Link to individual commit.
+        with_tag( 'br' ) 
+        with_tag( 'p' ) # Commit message.
       end
     end
   end
