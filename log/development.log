@@ -1,0 +1,7 @@
+
+
+Processing CommitsController#gets (for 127.0.0.1 at 2008-11-10 14:15:48) [GET]
+  Session ID: 4cde51a65f9d18dbea7622256b152585
+  Parameters: {"action"=>"gets", "method"=>"get", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.00847 (118 reqs/sec) | Rendering: 0.00316 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
