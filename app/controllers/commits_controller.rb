@@ -1,4 +1,6 @@
 class CommitsController < ApplicationController
+  include RestfulController
+  
   def gets
   end
 

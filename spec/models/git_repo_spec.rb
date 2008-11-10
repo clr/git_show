@@ -6,7 +6,7 @@ describe GitRepo do
     }
   end
 
-  it "should create a new instance given valid attributes" do
-    GitRepo.create!(@valid_attributes)
+  it "should find the local repo" do
+    GitRepo.version.should match( /^git version / )
   end
 end

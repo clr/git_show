@@ -46,3 +46,39 @@ Processing CommitsController#gets (for 0.0.0.0 at 2008-11-10 14:29:12) [GET]
 Rendering commits/gets
 Completed in 0.00076 (1310 reqs/sec) | Rendering: 0.00036 (47%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/gets]
 Rendering commits/gets
+
+
+Processing CommitsController#get (for 0.0.0.0 at 2008-11-10 14:39:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"get", "controller"=>"commits"}
+Rendering commits/get
+Completed in 0.00394 (254 reqs/sec) | Rendering: 0.00037 (9%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/get]
+
+
+Processing CommitsController#gets (for 0.0.0.0 at 2008-11-10 14:39:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"gets", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.00162 (615 reqs/sec) | Rendering: 0.00055 (33%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/gets]
+Rendering commits/get
+Rendering commits/gets
+  [4;36;1mSQL (0.000720)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing CommitsController#get (for 0.0.0.0 at 2008-11-10 14:43:57) [GET]
+  Session ID: 
+  Parameters: {"action"=>"get", "controller"=>"commits"}
+Rendering commits/get
+Completed in 0.00388 (258 reqs/sec) | Rendering: 0.00038 (9%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/get]
+
+
+Processing CommitsController#gets (for 0.0.0.0 at 2008-11-10 14:43:57) [GET]
+  Session ID: 
+  Parameters: {"action"=>"gets", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.00142 (704 reqs/sec) | Rendering: 0.00036 (25%) | DB: 0.00000 (0%) | 200 OK [http://test.host/commits/gets]
+Rendering commits/get
+Rendering commits/gets
