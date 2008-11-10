@@ -307,3 +307,11 @@ SGFzaHsABjoKQHVzZWR7AA==--abd5f8c4a18a0925a9a676ddded7ea7a1714d398
   Parameters: {"action"=>"gets", "method"=>"get", "controller"=>"commits"}
 Rendering commits/gets
 Completed in 0.03038 (32 reqs/sec) | Rendering: 0.02608 (85%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing CommitsController#gets (for 127.0.0.1 at 2008-11-10 15:26:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--abd5f8c4a18a0925a9a676ddded7ea7a1714d398
+  Parameters: {"action"=>"gets", "method"=>"get", "controller"=>"commits"}
+Rendering commits/gets
+Completed in 0.02903 (34 reqs/sec) | Rendering: 0.02569 (88%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]

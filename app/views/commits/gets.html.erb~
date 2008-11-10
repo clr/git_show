@@ -2,7 +2,7 @@
 <ol>
   <% GitRepo.commits.reverse.each do |commit| -%>
   <li>
-    <a href=""><%= commit[:id] %></a> <%= commit[:when] %>, by <%= commit[:author] %>
+    <a href="/commit/<%= commit[:id] %>"><%= commit[:id] %></a> <%= commit[:when] %>, by <%= commit[:author] %>
     <br />
     <p><%= commit[:message] %></p>
   </li>
