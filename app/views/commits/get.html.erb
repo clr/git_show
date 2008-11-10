@@ -1,2 +1,14 @@
-<h1>Commits#get</h1>
-<p>Find me in app/views/commits/get.html.erb</p>
+<h1>Commits <%= @commit.id %></h1>
+
+<% @commit.diffs.each do |diff| -%>
+<p>
+  <strong><%= diff[:file] %></strong>
+  <br />
+  <code>
+    <% diff[:changes].each do |line| %>
+    <%= color_code html_escape( line ) %>
+    <br />
+    <% end %>
+  </code>
+</p>
+<% end -%>

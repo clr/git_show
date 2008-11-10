@@ -5,6 +5,9 @@ class CommitsController < ApplicationController
   end
 
   def get
+    @commit = Commit.new( params[:id] )
   end
 
+  def prepare_restful_instance_variables; end
+  
 end
